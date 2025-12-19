@@ -35,3 +35,15 @@ fastapi-backend
 ├── README.md
 ├── requirements.txt
 ```
+
+## Setup (Local)
+```
+git clone https://github.com/m-sipho/fastapi-backend.git
+cd fastapi-backend
+python -m venv .venv
+.venv\Scripts\Activate.ps1      # For Windows powershells
+pip install -r requirements.txt
+uvicorn blog.main:app --reload
+```
+API available at:
+- `/docs` - API documentation
