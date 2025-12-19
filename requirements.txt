@@ -4,3 +4,4 @@ sqlalchemy
 pwdlib[argon2]
 pyjwt
 python-multipart
+python-dotenv
